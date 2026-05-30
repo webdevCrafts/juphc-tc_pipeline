@@ -57,6 +57,8 @@ spec:
       workspaces: 
         - name: source
           workspace: pipeline-workspace
+        - name: dockerconfig 
+          workspace: dockerconfig-ws
       taskRef: 
         name: buildah
         kind: ClusterTask
