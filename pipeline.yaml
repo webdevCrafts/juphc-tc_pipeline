@@ -64,4 +64,4 @@ spec:
       - name: IMAGE 
         value: "us.icr.io/$(context.pipelineRun.namespace)/$(params.app-name)"
       runAfter:
-        - tests"
+        - tests
